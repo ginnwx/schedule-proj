@@ -13,12 +13,12 @@ from threading import Thread
 DB_HOST = "localhost"
 DB_NAME = "schedule_Tk"
 DB_USER = "postgres"
-DB_PASSWORD = "Almas0711"
+DB_PASSWORD = "1111111"
 DB_PORT = "5432"
 
 # Настройки почты
-SENDER_EMAIL = "Almasba31@gmail.com"  # Ваш email
-SENDER_PASSWORD = "ctiv korv skcz xaow"      # Ваш пароль от почты
+SENDER_EMAIL = "nananaaan@gmail.com"  # Ваш email
+SENDER_PASSWORD = "121212121211"      # Ваш пароль от почты
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 
@@ -337,3 +337,4 @@ if __name__ == "__main__":
     notification_thread.start()
     
     bot.polling(none_stop=True)
+
